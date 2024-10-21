@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - Entry main of the program
  * description: main
  * return: Always return 0 (success)
