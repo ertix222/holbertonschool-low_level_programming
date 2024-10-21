@@ -8,7 +8,7 @@
 
 int main(void)
 {
-printf("Size of a char: 1 byte(s)\n"); 
+printf("Size of a char: 1 byte(s)\n");
 printf("Size of an int: 4 byte(s)\n");
 if (sizeof(void *) == 4)
 {
