@@ -4,7 +4,7 @@
  * main - Entry main of the program
  *
  * This function prints the size of various data types in C.
- * 
+ *
  * Return: Always 0 (success)
  */
 
