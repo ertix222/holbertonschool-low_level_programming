@@ -2,7 +2,7 @@
 
 /*
  * main - Entry main of the program
- * description main for the void said size bits
+ * description: main
  * return: Always return 0 (success)
  */
 
