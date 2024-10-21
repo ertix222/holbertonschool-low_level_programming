@@ -2,8 +2,10 @@
 
 /**
  * main - Entry main of the program
- * description: main
- * return: Always return 0 (success)
+ *
+ * This function prints the size of various data types in C.
+ * 
+ * Return: Always 0 (success)
  */
 
 int main(void)
