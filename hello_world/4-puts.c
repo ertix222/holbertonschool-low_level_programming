@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /*
- * main Entry point of the program
- * This function prints a message to the console
- * Return: Always 0 (Success)
- */
+* main - Entry point of the program
+* This function prints a message to the console
+* Return: Always return 0 (Success)
+*/
 
 int main(void)
 {
