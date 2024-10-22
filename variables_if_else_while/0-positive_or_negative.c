@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main- more or less number say it loud
- *description: say negative or positive
+ *Description: say negative or positive
  *return always 0 (success)
  */
 
