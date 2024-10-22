@@ -1,8 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main- more or less */
-/* betty style doc for function main goes there */
+/**
+ * main- more or less 
+ *return always 0 (success)
+ */
 
 int main(void)
 {
