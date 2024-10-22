@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- more or less 
+ * main- more or less
  *return always 0 (success)
  */
 
