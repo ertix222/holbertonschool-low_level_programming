@@ -4,7 +4,7 @@
 /**
  *main- more or less number say it loud
  *Description: say negative or positive
- *return always 0 (success)
+ *Return: always 0 (success)
  */
 
 int main(void)
