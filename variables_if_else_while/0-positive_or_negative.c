@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main- more or less
+ *main- more or less number say it loud
+ *description: say negative or positive
  *return always 0 (success)
  */
 
