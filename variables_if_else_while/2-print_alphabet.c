@@ -2,7 +2,6 @@
 
 /**
  *main- alphabet in lower
- *
  *Return always 0 (success)
  */
 
