@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/**                                                                                           
+/**
  *main- 0-9-a-z
  *Return: always 0 (success)
  */
