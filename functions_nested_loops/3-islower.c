@@ -2,7 +2,7 @@
 
 /**
  *_islower- check if carac is lower or not
- *
+ *@c: carater to check
  *Return: always
  */
 
