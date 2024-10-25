@@ -13,7 +13,7 @@ if (n > 0)
 {
 _putchar('-');
 return (1);
-_putchar('\n')
+_putchar('\n');
 }
 else if (n == 0)
 {
@@ -24,7 +24,7 @@ _putchar('\n');
 else
 {
 _putchar('-');
-return (-1)
+return (-1);
 _putchar('\n');
 }
 }
