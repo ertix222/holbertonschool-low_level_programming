@@ -6,7 +6,8 @@
  *Return: always
  */
 
-/**  if lower case return 1 else return 0
+/**
+ * if lower case return 1 else return 0
  */
 
 int _islower(int c)
