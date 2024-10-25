@@ -2,7 +2,7 @@
 
 /**
  *print_sign- print the sign of a number
- *
+ *@n: is the number 
  *Return: always
  */
 
