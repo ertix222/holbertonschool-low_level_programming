@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_islower- check if carac is lower or not
+ *_isalpha- check if carac is lower or not
  *@c: check if carac is a letter or other thing
  *Return: always
  */
