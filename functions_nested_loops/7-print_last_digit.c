@@ -18,7 +18,7 @@ c = n % 10;
 
 if (c < 0)
 c = -c;
-_putchar(a + '0');
+_putchar(c + '0');
 
 return(c);
 }
