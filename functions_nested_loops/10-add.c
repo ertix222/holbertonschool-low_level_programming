@@ -7,7 +7,7 @@
  * Return: summ of a and b
  */
 
-void add(int a, int b)
+int add(int a, int b)
   
 {
 int c;
