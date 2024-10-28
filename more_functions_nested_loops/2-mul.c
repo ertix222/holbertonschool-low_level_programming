@@ -5,7 +5,7 @@
  *@a: euh yes
  *@b: still yes
  *description: oui
- *return: 1
+ *Return: result of the mul
  */
 
 int mul(int a, int b)
