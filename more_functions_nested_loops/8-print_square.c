@@ -3,6 +3,7 @@
 /**
  *print_square- print '#' to form a square
  *description: look up
+ *@size: size of the printing square
  */
 
 void print_square(int size)
