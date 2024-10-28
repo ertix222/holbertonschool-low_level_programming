@@ -13,6 +13,9 @@ if (n > 1)
 {
 while (n--)
 {
+  _putchar(' ');
+ }
+ {
 _putchar('\\');
 }
 }
