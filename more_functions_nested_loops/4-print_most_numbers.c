@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *print_most_numbers- write 0 to 9 
+ *print_most_numbers- write 0 to 9
  *description: avoid 2 and 4
- *Return: 0 to 9 
+ *Return: 0 to 9
  */
 
 void print_most_numbers(void)
