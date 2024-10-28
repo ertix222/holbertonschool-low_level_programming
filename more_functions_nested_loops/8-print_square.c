@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_square- print '#' to form a square 
+ *print_square- print '#' to form a square
  *description: look up
  */
 
