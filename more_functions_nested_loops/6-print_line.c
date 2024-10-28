@@ -5,7 +5,7 @@
  *description: look up
  */
 
-void print_lines(int n)
+void print_line(int n)
 
 {
 if (n > 1)
