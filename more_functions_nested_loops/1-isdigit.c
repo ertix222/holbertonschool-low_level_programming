@@ -4,7 +4,7 @@
  *_isdigit- it's a digit so type 1 else type 0
  *@c: euh yes
  *description: oui
- *return: need digit
+ *Return: 1 if digit
  */
 
 int _isdigit(int c)
