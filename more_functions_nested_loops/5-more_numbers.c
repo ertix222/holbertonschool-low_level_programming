@@ -12,10 +12,10 @@ int i;
 int a;
 for (a = 1 ; a <= 10; a++)
 {
-for (i = "0" ; i <= "14"; i++)
+for (i = 0 ; i <= 14; i++)
 {
 _putchar(i);
 }
-_putchar('\n').
+_putchar('\n');
 }
 }
