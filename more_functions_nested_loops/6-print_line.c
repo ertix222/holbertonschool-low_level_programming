@@ -2,6 +2,7 @@
 
 /**
  *print_lines- print '_' for the numbers we got
+ *@n: number give checker
  *description: look up
  */
 
