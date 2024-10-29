@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *main- FizzBuzz 
+ *main - write FizzBuzz Fizz or Buzz if 3 5 or 3 & 5
  *description: FizzBuzz
  */
 
