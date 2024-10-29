@@ -15,13 +15,13 @@ if (size <=0)
 _putchar('\n');
 return;
 }
-for (a = 1; a <= size; a++);
+for (a = 1; a <= size; a++)
 {
-for (b = 0; b< size - a; b++);
+for (b = 0; b< size - a; b++)
 {
-_putchar(' ')
+_putchar(' ');
 }
-for (b = 0; b < a; b++);
+for (b = 0; b < a; b++)
 {
 _putchar('#');
 }
