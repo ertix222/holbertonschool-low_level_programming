@@ -2,8 +2,8 @@
 
 /**
  *swap_int- swap digit
- *@*a: first one
- *@*b:second one
+ *@a: first one
+ *@b:second one
  *@t
  *description: swap digit of *a and *b
  */
