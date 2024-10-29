@@ -2,7 +2,10 @@
 
 /**
  *main - write FizzBuzz Fizz or Buzz if 3 5 or 3 & 5
- *description: FizzBuzz
+ *description: print number 1 to 100 replacing multiples of 3
+ *with Fizz mul of 5 with Buzz and multiples
+ *of both 3 and 5 with FizzBuzz
+ *Return: Always 0 success
  */
 
 int main(void)
