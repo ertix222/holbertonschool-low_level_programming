@@ -9,7 +9,7 @@
  */
 
 
-void swap_int(int *a, *b)
+void swap_int(int *a,int *b)
 {
 
 int t;
