@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *print_diagonal- print '\' this time 
- *@n: number give by the checker
- *description: look up
+ *main- FizzBuzz 
+ *description: FizzBuzz
  */
 
 int main(void)
