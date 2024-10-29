@@ -3,6 +3,7 @@
 
 /**
  *print_triangle- triangle
+ *@size: size give for the triangle
  *description: triangle with charac '#'
  */
 
