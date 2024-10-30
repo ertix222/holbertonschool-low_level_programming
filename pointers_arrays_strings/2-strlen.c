@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strlen: replace the command strlen
+ *_strlen- replace the command strlen
  *@s:yes
  *description: write the lenght of a string
  */
