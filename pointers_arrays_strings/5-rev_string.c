@@ -2,8 +2,6 @@
 
 /**
  *rev_string- esrever string
- *@i:yes
- *@j:maybe
  *@s:again
  *description: write who reverse a string
  */
