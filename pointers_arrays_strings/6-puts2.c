@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *rev_string- esrever string
+ *puts2- esrever string
  *@str:yes
  *description: write who reverse a string
  */
