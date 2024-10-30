@@ -19,9 +19,10 @@ i--;
 while (str[i] != str)
 {
 _putchar(str[i]);
-i--
+i--;
 }
 _putchar(str[i]);
 {
 _putchar('\n');
+}
 }
