@@ -20,9 +20,6 @@ while (s[i] != s)
 {
 _putchar(str[i]);
 i--;
-}
-_putchar(str[i]);
-{
 _putchar('\n');
 }
 }
