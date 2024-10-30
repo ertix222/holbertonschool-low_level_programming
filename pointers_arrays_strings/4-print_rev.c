@@ -16,7 +16,7 @@ while (s[i] != '\0')
 i++;
 }
 i--;
-while (s[i] != str)
+while (s[i] != s)
 {
 _putchar(str[i]);
 i--;
