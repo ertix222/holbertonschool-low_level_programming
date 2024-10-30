@@ -2,19 +2,18 @@
 
 /**
  *_strlen
- *@*a: first one
- *@*b:second one
- *@t: temporary one
- *description: swap digit of *a and *b
+ *@s:yes
+ *description: write the lenght of a string
  */
 
 int _strlen(char *s)
 
 {
 
-int t;
-
-t = *a
-*a = *b
-*b = t
+int i;
+while (s != '\0')
+{
+i++
+}
+return (i);
 }
