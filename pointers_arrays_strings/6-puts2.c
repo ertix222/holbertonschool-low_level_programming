@@ -2,7 +2,7 @@
 
 /**
  *rev_string- esrever string
- *@i:yes
+ *@str:yes
  *description: write who reverse a string
  */
 
