@@ -4,6 +4,7 @@
  *_strlen- replace the command strlen
  *@s:yes
  *description: write the lenght of a string
+ *Return: success
  */
 
 int _strlen(char *s)
