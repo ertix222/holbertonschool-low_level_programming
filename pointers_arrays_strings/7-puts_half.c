@@ -1,29 +1,32 @@
 #include "main.h"
 
 /**
- *rev_string- esrever string
- *@s:yes
- *description: write who reverse a string
+ *puts_half- half of a ---ing
+ *@str:yes
+ *description: write only a half of a string
  */
 
-
-void rev_string(char *s)
+void puts_half(char *str)
 
 {
-int i = 0;
-int j = 0;
-char temps;
-
-while (s[j] != '\0')
-{
-j++;
+  int i = 0;
+  
+while (str[i] != '\0')
+  {
+    i++
+  }
+ if (i % 2 == 0)
+     {
+       i = i /2;
+       _putchar(str[i]);
+     }
+ else
+   {
+     i = i-1 /2;
+     _putchar(str[i]);
+   }
 }
-j--;
-while (i < j)
-{
-temp = s[i];
-s[i] = s[j];
-s[j] = temp;
-i++;
-j--;
-}
+
+ 
+//faire une integration qui calcule la length du string//
+//a la fin diviser le resultat de la length et si impair utiliser > n = (length_of_the_string - 1) / 2 //
