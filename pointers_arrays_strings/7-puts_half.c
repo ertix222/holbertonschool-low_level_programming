@@ -19,12 +19,18 @@ if (i % 2 == 0)
 {
 i = i / 2;
 while (str[i] != '\0')
-_putchar(str[i]);
+{
+_putchar(str[i])
 i++;
+}
 }
 else
 {
 i = i - 1 / 2;
+while (str[i] != '\0')
+{
 _putchar(str[i]);
+i++;
+}
 }
 }
