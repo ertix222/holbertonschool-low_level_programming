@@ -5,6 +5,9 @@
  * by src including null byte
  *@dest: pointer to buffer
  *@src: string to be copied
+ *description: copies the string pointed to
+ * by src including null byte
+ *(\0) to the buffer pointed to dest
  */
 
 char *_strcpy(char *dest, char *src)
