@@ -7,12 +7,6 @@
  */
 
 int _atoi(char *s)
-
-// etape 1 : Ignorer les caracteres non numeriques //
-// etape 2 : Gerer les signes + et - //
-// etape 3 : Convertir les chiffres en entier //
-// etape 4 : Gerer les debordements //
-// etape 5 : Retourner le resultat //
   
 {
   int a, b, c, d, e, digit;
@@ -36,10 +30,10 @@ int _atoi(char *s)
 	  if (b % 2)
 	    digit = -digit;
 	  c = c * 10 + digit;
-	  e = 1:
+	  e = 1;
 	    if (s[a + 1] < '0' || s[a + 1] > '9')
 	      break;
-	    e = 0:
+	    e = 0;
 		}
       a++;
 	}
