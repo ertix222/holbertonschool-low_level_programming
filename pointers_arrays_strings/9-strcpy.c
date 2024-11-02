@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
+ * *_strcpy- copies the string pointed
+ * by src including null byte
+ *@dest: pointer to buffer
+ *@src: string to be copied
  */
 
 char *_strcpy(char *dest, char *src)
