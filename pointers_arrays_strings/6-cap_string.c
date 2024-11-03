@@ -33,7 +33,7 @@ while (s[a] != '\0')
  break;
        }
     }
-i++;
+a++;
 
  }
 return (s);
