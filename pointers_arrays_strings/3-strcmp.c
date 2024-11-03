@@ -7,10 +7,9 @@
  *Return: 0 if they're equal, less if s1 if less s2, more if s2 is greater than s1
  */
 
-char _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 
 {
-
 
 while (*s1 == *s2)
 
