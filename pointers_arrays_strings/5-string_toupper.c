@@ -23,5 +23,5 @@ s[a] = s[a] - 32;
 
 a++;
 }
-return s;
+ return (s);
 }
