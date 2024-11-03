@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *_strcat- concatenates two string in one
- * @dest: a pointer to the destination which must be sufficiently large
- * @src: pointer to source string
- *Return: a pointer to the destination string after the
- * concatenation.
+ *reverse_array- reverse an array of intergers
+ * @a: array reversed
+ * @n: number of element
+ *
  */
 
 void reverse_array(int *a, int n)
