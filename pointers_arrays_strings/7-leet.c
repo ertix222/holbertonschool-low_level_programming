@@ -14,13 +14,13 @@ char leet_values[] = "4433007711";
 
 int a = 0;
 int b;
-    
+
 while (s[a] != '\0')
 {
-	
+
 for (b = 0; leet_letters[b] != '\0'; b++)
 {
-  
+
 if (s[a] == leet_letters[b])
 {
 
@@ -32,5 +32,5 @@ break;
 a++;
 }
 
-return s;
+return (s);
 }
