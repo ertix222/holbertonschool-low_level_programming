@@ -20,7 +20,7 @@ char *leet(char *s)
     while (s[a] != '\0')
       {
 	
-	for (b = 0; leet_lettres[b] != '\0'; b++)
+	for (b = 0; leet_letters[b] != '\0'; b++)
 	  {
 	    if (s[a] == leet_letters[b])
 	      {
