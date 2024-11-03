@@ -8,24 +8,27 @@
  * concatenation.
  */
 
-char *leet(char *)
+char *leet(char *s)
 
 {
-int a, b;
+    char leet_letters[] = "aAeEoOtTlL";
+    char leet_values[] = "4433007711";
 
-a = 0;
-b = 0;
-
-while (dest[a] != '\0')
-a++;
-
-while (src[b] != '\0')
-
-{
-dest[a] = src[b];
-a++;
-b++;
-}
-dest[a] = '\0';
-return (dest);
+    int a = 0;
+    int b;
+    
+    while (s[a] != '\0')
+      {
+	
+	for (b = 0; leet_lettres[b] != '\0'; b++)
+	  {
+	    if (s[a] == leet_letters[b])
+	      {
+		s[a] = leet_values[b];
+		break;
+	      }
+	  }
+	a++;
+      }
+    return s;
 }
