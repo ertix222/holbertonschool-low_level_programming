@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- *_strcat- concatenates two string in one
- * @dest: a pointer to the destination which must be sufficiently large
- * @src: pointer to source string
- *Return: a pointer to the destination string after the
- * concatenation.
+ *leet- mozart 1337
+ * s: the string which will be modified
+ *Return: 1337
  */
 
 char *leet(char *s)
