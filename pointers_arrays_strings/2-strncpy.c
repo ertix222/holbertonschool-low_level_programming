@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_strcat- concatenates two string in one
+ *_strncpy- concatenates two string in one
  * @dest: a pointer to the destination which must be sufficiently large
  * @src: pointer to source string
  * @n: maximum number of caracter to copy of src
