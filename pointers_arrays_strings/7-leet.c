@@ -2,7 +2,7 @@
 
 /**
  *leet- mozart 1337
- * s: the string which will be modified
+ *@s: the string which will be modified
  *Return: 1337
  */
 
