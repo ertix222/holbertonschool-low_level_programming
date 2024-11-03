@@ -22,19 +22,18 @@ a++;
 
 while (s[a] != '\0')
 {
-  for (b = 0; separators[b] != '\0'; b++)
-    {
+for (b = 0; separators[b] != '\0'; b++)
+{
 
-     if (s[a - 1] == separators[b] && s[a] >= 'a' && s[a] <= 'z')
-       {
-	 s[a] = s[a] - 32;
+if (s[a - 1] == separators[b] && s[a] >= 'a' && s[a] <= 'z')
+{
+s[a] = s[a] - 32;
 
-
- break;
-       }
-    }
+break;
+}
+}
 a++;
 
- }
+}
 return (s);
 }
