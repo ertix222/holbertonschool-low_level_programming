@@ -9,24 +9,28 @@
 char *leet(char *s)
 
 {
-    char leet_letters[] = "aAeEoOtTlL";
-    char leet_values[] = "4433007711";
+char leet_letters[] = "aAeEoOtTlL";
+char leet_values[] = "4433007711";
 
-    int a = 0;
-    int b;
+int a = 0;
+int b;
     
-    while (s[a] != '\0')
-      {
+while (s[a] != '\0')
+{
 	
-	for (b = 0; leet_letters[b] != '\0'; b++)
-	  {
-	    if (s[a] == leet_letters[b])
-	      {
-		s[a] = leet_values[b];
-		break;
-	      }
-	  }
-	a++;
-      }
-    return s;
+for (b = 0; leet_letters[b] != '\0'; b++)
+{
+  
+if (s[a] == leet_letters[b])
+{
+
+s[a] = leet_values[b];
+break;
+}
+}
+
+a++;
+}
+
+return s;
 }
