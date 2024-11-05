@@ -14,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 unsigned int count = 0;
 int a, b;
- 
+
 for (a = 0; s[a] != '\0'; a++)
 {
 int found = 0;
@@ -31,5 +31,5 @@ break;
 if (!found)
 break;
 }
-return count;
+return (count);
 }
