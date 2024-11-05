@@ -7,7 +7,7 @@
  *Return: i like chess
  */
 
-Void print_chessboard(char (*a)[8])
+void print_chessboard(char (*a)[8])
 
 {
 int m, n;
@@ -19,6 +19,6 @@ for (n = 0; n < 8; n++)
 {
 _putchar(a[m][n]);
 }
-_putchar('\n'),
+_putchar('\n');
 }
 }
