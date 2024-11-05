@@ -2,24 +2,32 @@
 #include "main.h"
 
 /**
- * _strchr- locates a character in a string
- *@s: pointer how search the caractere
- *@c: the caracter we want to locate 
- *Return: maybe
+ * _strstr - Finds the first occurrence of the substring needle in haystack
+ * @haystack: The main string to be searched
+ * @needle: The substring to find in haystack
+ * Return: Pointer to the beginning of the substring, or NULL if not found
  */
 
-char *_strchr(char *s, char c)
+char *_strstr(char *haystack, char *needle)
 
 {
-unsigned int i;
-i = 0;
-while (s[i] != '\0')
+int a, b;
+
+if (*needle == '\0')
+return (haystack);
+
+for (a = 0; haystack[a] != '\0'; a++)
 {
-if (s[i] == c)
+
+for (b = 0; needle[b] != '\0'; b++)
 {
-return &s[i];
+
+if (haystack[a + b] != needle[b])
+break;
 }
-i++;
+
+if (needle[b] == '\0')
+return (&haystack[a]);
 }
 return (NULL);
 }
