@@ -1,0 +1,26 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * print_diagsums-
+ *@size: the size of the square
+ *@a: 2
+ */
+
+void print_diagsums(int *a, int size)
+
+{
+int fSum = 0;
+int SSum = 0;
+int i;
+
+for (i = 0; i < size; i++)
+{
+fSum += a[i * size + i];
+SSum += a[i * size + (size - 1 - i)];
+}
+
+printf("%d, %d\n", fSum, SSum);
+
+return;
+}
