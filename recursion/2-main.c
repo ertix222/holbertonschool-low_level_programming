@@ -1,7 +1,16 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strlen_recursion- length of a string
- *@s: the string who will be calculate
- *Return: always
+ * main - check the code
+ *
+ * Return: Always 0.
  */
+int main(void)
+{
+    int n;
+
+    n = _strlen_recursion("Corbin Coleman");
+    printf("%d\n", n);
+    return (0);
+}
