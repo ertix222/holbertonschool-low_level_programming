@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * is_prime_number- 
+ *
+ *Return: maybe
+ */
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * is_prime_number- function that returns 1 if it's a prime number
+ * otherwise return 0.
+ *@n: number to check if prime or not
+ *Return: 1 if n is prime else 0
+ */
