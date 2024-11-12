@@ -12,6 +12,14 @@
 char *str_concat(char *s1, char *s2)
 
 {
+int a, b , i;
 
-  if (s1 == NULL)
-    s3 = ""
+a = 0;
+b = 0;
+
+if (s1 != NULL)
+{
+while(s1[a] != '\0')
+}
+
+ if (s2 != NULL)
