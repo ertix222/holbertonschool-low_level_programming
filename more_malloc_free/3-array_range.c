@@ -17,15 +17,15 @@ int size, i;
 int *array;
 
 if (min > max)
-return(NULL);
+return (NULL);
 
 size = max - min + 1;
-array = malloc(size * sizeof(int));
+array = malloc(size *sizeof(int));
 if (array == NULL)
 return (NULL);
 
-for (i = 0; i < size; i++) 
+for (i = 0; i < size; i++)
 array[i] = min + i;
 
-return (array); 
+return (array);
 }
