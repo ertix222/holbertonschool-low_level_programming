@@ -13,7 +13,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
-unsigned int l1, l2, num_we_copy;
+unsigned int l1, l2, num_we_copy, a, b;
 char *new_str;
 
 if (s1 == NULL)
@@ -31,10 +31,13 @@ if (new_str == NULL)
 {
 return (NULL);
 }
+for (a = 0; a < l1; a++)
+new_str[a] = s1[a];
 
-strcpy(new_str,  s1);
-strncat(new_str, s2, num_we_copy);
+for (b = 0; b < num_we_copy; b++)
+new_str[a + b] = s2[b];
 
+new_str[a + b] = '\0';
 return (new_str);
 
 }
