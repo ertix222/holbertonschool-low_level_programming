@@ -3,6 +3,23 @@
 #include <string.h>
 
 /**
+ *_strlen- replace the command strlen
+ *@s:yes
+ *Return: yes
+ */
+
+int _strlen(char *s)
+
+{
+int i = 0;
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
+}
+
+/**
  * string_nconcat- concatenated two string
  *@s1: first chain
  *@s2: second chain
@@ -13,31 +30,26 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 {
-unsigned int l1, l2, num_we_copy, a, b;
-char *new_str;
+unsigned int L1, L2;
 
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-l1 = strlen(s1);
-l2 = strlen(s2);
-num_we_copy  = (n < l2) ? n : l2;
+L1 = _strlen(s1);
+L2 = _strlen(s2);
 
-new_str = malloc(l1 + num_we_copy + 1);
-
-if (new_str == NULL)
+if (s1 != NULL)
 {
-return (NULL);
+    while (s1[L1] != '\0')
+    {
+        L1++;
+    }
 }
-for (a = 0; a < l1; a++)
-new_str[a] = s1[a];
-
-for (b = 0; b < num_we_copy; b++)
-new_str[a + b] = s2[b];
-
-new_str[a + b] = '\0';
-return (new_str);
-
+if (s2 != NULL) {
+    while (s2[L2] != '\0' && L2 < n) {
+        L2++;
+    }
+}
 }
