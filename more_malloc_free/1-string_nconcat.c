@@ -42,14 +42,15 @@ L2 = _strlen(s2);
 
 if (s1 != NULL)
 {
-    while (s1[L1] != '\0')
-    {
-        L1++;
-    }
+while (s1[L1] != '\0')
+{
+L1++;
 }
+}
+
 if (s2 != NULL) {
-    while (s2[L2] != '\0' && L2 < n) {
-        L2++;
-    }
+while (s2[L2] != '\0' && L2 < n) {
+L2++;
+}
 }
 }
