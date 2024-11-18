@@ -4,8 +4,7 @@
 /**
 * print_name- a fonction that print a name
 *@name: the name to print
-*@f: 
-*
+*@f: pointers
 */
 
 void print_name(char *name, void (*f)(char *))
