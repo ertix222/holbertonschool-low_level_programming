@@ -7,7 +7,7 @@
 *@a: number to add
 *@b: number to add
 */
-int op_add(int a, int b);
+int op_add(int a, int b)
 {
 return a + b;
 }
@@ -17,17 +17,17 @@ return a + b;
 *@a: number to sub
 *@b: number to sub
 */
-int op_sub(int a, int b);
+int op_sub(int a, int b)
 {
 return a - b;
 }
 
 /**
-* op_mul- returns the product of a and b
+* op_mul- returns the product of a by b
 *@a: number to mul
 *@b: number to mul
 */
-int op_mul(int a, int b);
+int op_mul(int a, int b)
 {
 return a * b;
 }
@@ -37,7 +37,7 @@ return a * b;
 *@a: number to div
 *@b: number to div
 */
-int op_div(int a, int b);
+int op_div(int a, int b)
 {
 return a / b;
 }
@@ -47,7 +47,7 @@ return a / b;
 *@a: number to mod
 *@b: number to mod
 */
-int op_mod(int a, int b);
+int op_mod(int a, int b)
 {
 return a % b;
 }
