@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stddef.h>
+#include <string.h>
+#include "lists.h"
 
 /**
 * print_list- 
@@ -11,7 +13,7 @@ size_t print_list(const list_t *h)
 
 {
 size_t count = 0; /*counter for nodes*/
-const list_t *current;/*temp pointer to travers the list*/
+const list_t *current = h;/*temp pointer to travers the list*/
 while(current != NULL)
 {
 if (current->str == NULL)
