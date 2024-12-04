@@ -17,11 +17,13 @@ const list_t *current = h;/*temp pointer to travers the list*/
 while (current != NULL)
 {
 if (current->str == NULL)
+{
 printf("[0] (nil)");
-
+current = current->next;
+}
 else
 {
-printf("[%lu] %s\n", strlen(current->str), current->str);
+printf("[%lu] %s\n", current->len, current->str);
 }
 count++;
 current = current->next;/*go to the next node*/
