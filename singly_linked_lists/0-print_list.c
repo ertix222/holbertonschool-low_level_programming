@@ -24,9 +24,9 @@ current = current->next;
 else
 {
 printf("[%d] %s\n", current->len, current->str);
+current = current->next;/*go to the next node*/
 }
 count++;
-current = current->next;/*go to the next node*/
 }
 return (count); /*number of nods*/
 }
