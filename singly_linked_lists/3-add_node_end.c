@@ -12,7 +12,7 @@
 list_t *add_node_end(list_t **head, const char *str)
 
 {
-list_t *new;
+list_t *new, *current;
 size_t lenght = 0;
 
 if (head == NULL || str == NULL)
@@ -28,15 +28,24 @@ if (new->str == NULL)
 free(new);
 return (NULL);
 }
-new->next = NULL;
-if (*head == NULL)
-{*head = new;
-return (new);
-}
+
 while (str[lenght] != '\0')
 {
 lenght++;
 }
 new->len = lenght;
+new->next = NULL;
+
+if (*head == NULL)/*if list is empty*/
+{*head = new;
+return (new);
+}
+current = *head;
+
+while (current->next != NULL)
+{
+current = current->next;
+}
+current->next = new;
 return (new);
 }
