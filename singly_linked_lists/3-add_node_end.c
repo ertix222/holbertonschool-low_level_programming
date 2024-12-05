@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
-* add_node- add a new node a the beginning
+* add_node_end- add a new node a the beginning
 *@head: pointer of pointer to the head of the list
 *@str: string to add to the new node
 *Return: adress of the new node
